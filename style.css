@@ -3,10 +3,15 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.45;
+    align-items: center;
+    text-align: center;
 }
-header {
+
+
+header, footer {
     margin: 0 auto;
-    padding: 80px 0;
+    padding: 0 0;
+    border-bottom: .05px solid black;
 }
 
 .container {
@@ -30,4 +35,26 @@ nav ul {
 }
 li {
     text-decoration: none;
+}
+form, section, article {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+}
+
+span {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.scroll-up {
+    position: fixed;
+    right:0.5%;
+    bottom: 3%;
+    cursor: pointer;
 }
