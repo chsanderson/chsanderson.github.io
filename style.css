@@ -11,7 +11,7 @@ body {
 .card-body {
     color: #000000;
 }
-card {
+.card {
     padding: 1em;
 }
 
@@ -76,4 +76,7 @@ button {
     cursor:pointer;
     padding: 15px;
     border-radius: 18px;
+}
+img {
+    text-align: center;
 }
