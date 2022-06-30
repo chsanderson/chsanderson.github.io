@@ -1,3 +1,5 @@
+# chsanderson.github.io/robots.txt
 # https://wwww.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: 
+Disallow: styles.css
+Disallow: index.js
